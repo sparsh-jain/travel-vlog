@@ -329,3 +329,25 @@ color: #f4f4f4;
     float: right;
 }
 
+/* +++++++++++++++++++++++++++++++++++++++Contact page styling++++++++++++++++++++++++++++++ */
+.contact-form{
+    padding: 5rem 0;
+}
+.form-wrapper{
+    border: 10px solid red;
+}
+.company-address{
+    border: 4px dotted green;
+    float: left;
+    width: 49%;
+}
+.form{
+    border: 4px dotted black;
+    float: right;
+    width: 49%;
+}
+.form-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
