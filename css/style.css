@@ -91,6 +91,10 @@ color: #f4f4f4;
     font-size: 1rem;
     font-weight: 400;
 }
+.md-heading{
+    font-size: 2rem;
+    font-weight: 500;
+}
 .bg-dark{
     background-color: #263238;
 }
@@ -294,6 +298,7 @@ color: #f4f4f4;
 .banner{
     background: linear-gradient(25deg,#d64c7f,#ee4758 50%);
     margin-top: 3rem;
+    margin-bottom: 6rem;
 }
 .banner::after{
     content: '';
@@ -332,22 +337,84 @@ color: #f4f4f4;
 /* +++++++++++++++++++++++++++++++++++++++Contact page styling++++++++++++++++++++++++++++++ */
 .contact-form{
     padding: 5rem 0;
+    background: #f7f7f7;
 }
-.form-wrapper{
-    border: 10px solid red;
-}
-.company-address{
-    border: 4px dotted green;
+.form-wrapper .company-address{
     float: left;
     width: 49%;
+    background: #f4f4f4;
+    padding: 1rem;
+    height: 760px;
 }
-.form{
-    border: 4px dotted black;
-    float: right;
-    width: 49%;
+.form-wrapper .company-address i{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.form-wrapper .company-address h2{
+    display: inline-block;
+    
+}
+.form-wrapper .address-group{
+    margin-bottom: 3rem;
+}
+.form-wrapper .company-address img{
+    max-width: 90%;
+   min-height: 40rem;
+   object-fit: cover;
+   object-position: right;
 }
 .form-wrapper::after{
     content: '';
     display: block;
     clear: both;
 }
+/* ++++++++++++++++++++++++++++++++++++++++++++form styling ++++++++++++++++++++++++++++++++++ */
+
+
+.form-wrapper .form{
+    float: right;
+    width: 49%;
+    background: #f4f4f4;
+    font-size: 1.6rem;
+    padding: 1rem;
+    height: 760px;
+}
+.form h1{
+    border-bottom: 5px solid #e63946;
+    
+}
+.form-wrapper label{
+    display: block;
+}
+.form-wrapper .form input{
+    padding: 0.5rem;
+    width: 100%;
+}
+.form-wrapper .form-group{
+    margin-bottom: 1.2rem;
+
+}
+.form-wrapper .form label::after{
+    content: '*';
+    color: #e63946;
+}
+.form-wrapper .form textarea{
+    width: 100%;
+    height: 300px;
+    padding: 1rem;
+}
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 0.3em;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    background: #e63946;
+    color: #f4f4f4;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+
+}
+
