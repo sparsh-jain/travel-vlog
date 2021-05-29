@@ -243,6 +243,7 @@ color: #f4f4f4;
 .about-wrapper .right{
     float: right;
     width: 50%;
+    text-align: left;
 }
 .about-wrapper{
     margin-top: 3rem;
@@ -259,7 +260,12 @@ color: #f4f4f4;
     color: #e63946;
     font-weight: bold;
     padding-right: 1rem;
+    float: left;
 }
+.about-wrapper .left li{
+    float: left;
+}
+
 /* +++++++++++++++++++++++++++++++++++++++++++Count++++++++++++++++++++++++++++++++++++ */
 .counts{
     margin-top: 2rem;
